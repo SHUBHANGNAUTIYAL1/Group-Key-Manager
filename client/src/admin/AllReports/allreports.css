@@ -1,0 +1,146 @@
+/* Home.css */
+ 
+
+.home-container4 {
+    display: flex;
+    width: 100%;
+    height:80vh;
+    background-image: url('https://wallpapercave.com/wp/wp2508312.jpg');
+    
+    background-size: cover;
+    background-position: center;
+    gap:1rem;
+    
+  }
+
+  .container4{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    width:100%;
+    background-color:rgb(250,250,250,0);
+    align-items:center;
+
+}
+.top4{
+    height:10vh;
+    width:100%;
+    display:flex;
+    
+    
+
+
+}
+.bottom4{
+    height:80%;
+    width:80%;
+    display:flex;
+    flex-direction:column;
+    border-radius:1rem;
+    background-color:rgb(250,250,250,0.4);
+    overflow-y:scroll;
+    align-items:center;
+    
+    
+
+}
+.Add4{
+    width:20%;
+    height:50%;
+    background:green;
+    border:none;
+    //margin-left:90%;
+    color:white;
+    font-size:20px;
+    border-radius:0.5rem;
+    position:relative;
+    margin-left:50%;
+    
+    
+
+}
+.plus4{
+    
+    margin-left:5px;
+    
+}
+
+.top4 p{
+    font-size:30px;
+    margin-left:2rem;
+    font-weight:bold;
+    color:white;
+}
+  .document4{
+    width:99%;
+    min-height:2rem;
+    max-height:2rem;
+    background-color:lightgrey;
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+    border-radius:0.5rem;
+    display:flex;
+    border:1px solid green;
+  
+  }
+  .img4{
+    width:10%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    margin-left:1rem;
+
+
+}
+.fname4{
+    width:80%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    
+
+}
+.na{
+    width:50%;
+    height:100%;
+    display:flex;
+    align-items:center;
+
+}
+.ro{
+    
+    width:50%;
+    height:100%;
+    display:flex;
+    align-items:center;
+
+    
+
+}
+.fname4 p{
+   color:black;
+}
+
+.icon4{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:1rem;
+    width:10%;
+    height:100%;
+
+    
+
+}
+.header4{
+    width:65%;
+    height:100%;
+}
+.butt4{
+    width:35%;
+    height:100%;
+    display:flex;
+    justify:content;
+    align-items:center;
+    gap:2rem;
+}

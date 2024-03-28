@@ -1,0 +1,61 @@
+
+.group-modal{
+    height:100vh;
+    width:100vw;
+    background-color: rgba(0, 0, 0, 0.418);
+    position:fixed;
+    z-index:1000;
+    top:0;
+    left:0;
+
+}
+
+  
+  .group-content {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    height:70%;
+    position:absolute;
+    top:5%;
+    left:20%;
+    border-radius:1rem;
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position:absolute;
+    right:1rem;
+    top:0;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  form{
+    display:flex;
+    gap:1rem;
+    flex-direction:column;
+    
+  }
+  input[list],
+  input[type='text']
+  {
+    width: 90%;
+    height:20%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  

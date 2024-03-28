@@ -1,0 +1,277 @@
+
+.doc{
+    height:100vh;
+    width:100vw;
+    background-color: rgba(0, 0, 0, 0.418);
+    position:fixed;
+    z-index:1000;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+  
+  .doc-content {
+    background-color: white;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+    height:60%;
+    position:absolute;
+    border-radius:1rem;
+    display:flex;
+    flex-direction:column;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    margin-top:-0.5%;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .navtop
+  {
+     height:10%;
+     width:100%;
+     background: #63C5DA;
+     border:1px solid black;
+  }
+  .foot{
+    height:10%;
+    width:100%;
+    background: #63C5DA;
+    border:1px solid black;
+  }
+  .center{
+    height:80%;
+    width:100%;
+    border:1px solid black;
+    display:flex;
+    background: #F5FEFD;
+    
+  }
+
+  
+  .center-left{
+    width:70%;
+    height:100%;
+    //background:pink;
+  }
+  .center-right{
+    width:30%;
+    height:100%;
+    //background:yellow;
+    display:flex;
+    flex-direction:column;
+    
+    align-items:center;
+
+  }
+  .filelogs{
+    height:80%;
+    width:80%;
+    border:2px solid black;
+    overflow-y:scroll;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius:0.2rem;
+    
+  }
+
+  .center-top{
+    width:100%;
+    height:20%;
+    display:flex;
+    //background:pink;
+  }
+  .icon{
+    width:10%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+  }
+  .file{
+    width:90%;
+    height:100%;
+    display:flex;
+    //justify-content:center;
+    align-items:center;
+    margin-left:5%;
+    font-size:20px;
+    font-weight:bold;
+
+  }
+  .center-bottom{
+    width:100%;
+    height:80%;
+    display:flex;
+    gap:2rem;
+    justify-content:center;
+    align-items:center;
+    
+  }
+  .access-container{
+    height:100%;
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+  }
+  .request-container{
+    height:100%;
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+  .access{
+    width:80%;
+    height:80%;
+    border:2px solid black;
+    overflow-y:scroll;
+    margin-bottom:1rem;
+    display:flex;
+    flex-direction:column;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius:0.2rem;
+  
+    
+
+  }
+  .request{
+    width:80%;
+    height:60%;
+    border:2px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    overflow-y:scroll;
+    border-radius:0.2rem;
+    
+
+  }
+
+  .require{
+    width:98%;
+    max-height:2rem;
+    margin-left:0.2rem;
+    min-height:2rem;
+    background:limegreen;
+    margin-top:0.2rem;
+    border-radius:0.2rem;
+    display:flex;
+    border:1px solid black;
+    align-items:center;
+
+  }
+  .reqimage{
+    width:10%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+  }
+  .reqname{
+    width:70%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+  }
+  .reqicon{
+    width:20%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    gap:0.1rem;
+    
+
+
+  }
+
+  .access-doc{
+    width:98%;
+    max-height:2rem;
+    margin-left:0.2rem;
+    min-height:2rem;
+    background:#F8F2ED;
+    margin-top:0.2rem;
+    border-radius:0.2rem;
+    display:flex;
+    border:1px solid black;
+    align-items:center;
+  }
+
+  .accessimage{
+    width:10%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+  }
+  .accessname{
+    width:90%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+  }
+
+  .logs{
+    width:98%;
+    max-height:2rem;
+    margin-left:0.2rem;
+    min-height:2rem;
+    background:#F8F2ED;
+    margin-top:0.2rem;
+    border-radius:0.2rem;
+    display:flex;
+    border:1px solid black;
+    align-items:center;
+
+  }
+  .logimage{
+    width:10%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+  }
+  .logname{
+    width:60%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+  }
+  .logicon{
+    width:30%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    gap:0.1rem;
+    
+
+
+  }

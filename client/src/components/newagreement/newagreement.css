@@ -1,0 +1,94 @@
+
+.modal{
+    height:100vh;
+    width:100vw;
+    background-color: rgba(0, 0, 0, 0.418);
+    position:fixed;
+    z-index:1000;
+    top:0;
+    left:0;
+
+}
+
+  
+  .modal-content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    height:50%;
+    position:absolute;
+    top:5%;
+    left:40%;
+    border-radius:1rem;
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position:absolute;
+    right:1rem;
+    top:0;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  form{
+    display:flex;
+    gap:1rem;
+    flex-direction:column;
+    
+  }
+   .filename{
+    height:7%;
+    width:70%;
+    border-radius:4px;
+    outline:none;
+    border:2px solid black;
+    padding:0.5rem;
+    left:0;
+    top:10rem;
+    
+  }
+  .name{
+    height:7%;
+    width:70%;
+    left:0;
+    border-radius:4px;
+    outline:none;
+    border:3px solid black;
+    padding:0.5rem;
+    
+  }
+  .email{
+    height:7%;
+    width:70%;
+    border-radius:4px;
+    outline:none;
+    border:3px solid black;
+    padding:0.5rem;
+    left:0;
+    
+  }
+  .submit{
+    width:70%;
+    height:15%;
+    border-radius:0.5rem;
+    background:blue;
+    color:white;
+    margin-left:15%;
+    border:none;
+    font-size:20px;
+    margin-top:2rem;
+  }
+  
